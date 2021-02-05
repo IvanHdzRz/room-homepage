@@ -4,7 +4,7 @@ import lightImg from '../../assets/images/image-about-light.jpg'
 import Quote from '../quote/Quote'
 const AboutSection = () => {
     return (
-        <div className="flex flex-col">
+        <div id="about" className="flex flex-col">
             <div className="flex w-full">
                 <img src={darkImg} className="object-cover w-full" alt="dark couch"/>
             </div>
