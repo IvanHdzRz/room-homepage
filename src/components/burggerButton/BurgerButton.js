@@ -4,7 +4,7 @@ import closeIcon from '../../assets/images/icon-close.svg'
 
 const BurgerButton = ({isOpen=false,onClick}) => {
     return (
-        <button className="w-6 h-6 mx-4" onClick={onClick}>
+        <button className="w-4 h-4 mx-4" onClick={onClick}>
             <img src={isOpen?closeIcon:burgerIcon} className="w-full object-cover" alt="menu"/>
         </button>
     )

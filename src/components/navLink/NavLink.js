@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavLink = ({anchor,name}) => {
     return (
-        <a href={anchor} className="font-bold w-full ">
+        <a href={anchor} className="font-bold text-sm">
             {name}
         </a>
     )
