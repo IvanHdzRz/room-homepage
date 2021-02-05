@@ -24,13 +24,10 @@ const Slider = () => {
     const {title,description,imgs,link}=slides[count]
 
     return (
-        <div className="flex flex-col m-0 w-full box-border">
-            <div id="herowrapper" className="relative w-full m-0 box-border">
-                <SlideImage currentImage={imgs.mobile} />
-                <SliderControls onNext={handleNext} onPrev={handlePrev} />
-            </div>
+        <div className="grid  grid-cols-1  m-0 w-full box-border">
+            <SlideImage currentImage={imgs.mobile} />
+            <SliderControls onNext={handleNext} onPrev={handlePrev} />
             <SliderDescription title={title} description={description} link={link} />  
-            
         </div>
     )
 }
