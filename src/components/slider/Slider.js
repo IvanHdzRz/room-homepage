@@ -14,7 +14,7 @@ const Slider = () => {
     const {title,description,imgs,link}=slides[count]
 
     return (
-        <div className="grid  grid-cols-1  m-0 w-full box-border md:grid-rows-1 md:grid-cols-2 lg:grid-cols-5 lg:max-h-vh-2/3 lg:min-h-112">
+        <div className="w-full box-border grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-2 lg:grid-cols-5 lg:max-h-vh-2/3 lg:min-h-128">
             <SlideImage currentImage={isDesktopScreen?imgs.desktop:imgs.mobile} />
             <SliderControls onNext={countUp} onPrev={countDown} />
             <SliderDescription title={title} description={description} link={link} />  

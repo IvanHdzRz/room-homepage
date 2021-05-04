@@ -4,7 +4,13 @@ import lightImg from '../../assets/images/image-about-light.jpg'
 import Quote from '../quote/Quote'
 const AboutSection = () => {
     return (
-        <div id="about" className="flex flex-col items-center  md:grid md:grid-rows-2 md:grid-cols-2 lg:grid-cols-7 lg:grid-rows-1 lg:max-h-vh-1/3 lg:min-h-56">
+        <div 
+            id="about" 
+            className="
+                flex flex-col items-center  
+                md:grid md:grid-rows-2 md:grid-cols-2 
+                lg:grid-cols-7 lg:grid-rows-1"
+        >
             <div className="flex w-full h-full md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2">
                 <img src={darkImg} className="object-cover w-full h-full" alt="dark couch"/>
             </div>
