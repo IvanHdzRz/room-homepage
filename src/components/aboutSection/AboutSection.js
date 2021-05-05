@@ -7,9 +7,9 @@ const AboutSection = () => {
         <div 
             id="about" 
             className="
-                flex flex-col items-center  
+                flex flex-col items-center  box-border h-full
                 md:grid md:grid-rows-2 md:grid-cols-2 
-                lg:grid-cols-7 lg:grid-rows-1"
+                lg:grid-cols-7 lg:grid-rows-1 lg:min-h-vh-1/3"
         >
             <div className="flex w-full h-full md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2">
                 <img src={darkImg} className="object-cover w-full h-full" alt="dark couch"/>

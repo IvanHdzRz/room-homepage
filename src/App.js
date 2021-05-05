@@ -5,7 +5,7 @@ import Slider from './components/slider/Slider.js'
 
 function App() {
   return (
-    <div className="w-screen flex flex-col overflow-x-hidden relative m-0 ">
+    <div className="w-screen min-h-screen flex flex-col overflow-x-hidden relative m-0 ">
       <NavBar />
       <Slider />
       <AboutSection />
