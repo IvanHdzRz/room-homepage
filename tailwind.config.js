@@ -22,6 +22,25 @@ module.exports = {
         '72':'18rem',
         '112':'28rem'
        },
+       keyframes:{
+         fade:{
+           '0%':{opacity:'0'},
+           '100%':{opacity:'1'}
+         },
+         faded:{
+          '0%':{opacity:'0'},
+          '100%':{opacity:'1'}
+        },
+        fadeout:{
+          '0%':{opacity:'1'},
+          '100%':{opacity:'0'}
+        }
+       },
+       animation:{
+         fade:'fade 1s ease-in ',
+         faded:'faded 1s ease-in ',
+         fadeout:'fadeout 1s ease-in '
+       }
        
     },
   },
